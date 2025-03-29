@@ -19,7 +19,7 @@ public class Interval {
     }
 
     public String getResult() {
-        double percentage = (totalNumbers == 0) ? 0 : ((double) containedNumbers / totalNumbers) * 100;
-        return String.format("Interval [%.2f, %.2f]: %.2f%%", lower, upper, percentage);
+        double procent = (totalNumbers == 0) ? 0 : ((double) containedNumbers / totalNumbers) * 100;
+        return String.format("Interval [%.2f, %.2f]: %.2f%%", lower, upper, procent);
     }
 }

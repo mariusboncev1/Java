@@ -34,33 +34,4 @@ public class Numere {
         return numbers;
     }
 
-
-    // public void scriereFisier() {
-    //     try {
-    //         BufferedWriter writer = new BufferedWriter(new FileWriter("intervale.dat"));
-    //         writer.write("Writing to a file. \nagain");
-    //         writer.close();
-    //     }
-    //     catch (IOException e){
-    //         e.printStackTrace();
-    //     }
-    // }
-
-    // public void citireFisier() {
-    //     try {
-    //         BufferedReader reader = new BufferedReader(new FileReader("intervale.dat"));
-    //         String line;
-    //         while ((line = reader.readLine()) != null) {
-    //             System.out.print(line + "\n");
-    //         }
-    //         reader.close();
-    //     }
-    //     catch(IOException e) {
-    //         e.printStackTrace();
-    //     }
-    // }
-
-    
-
-
 }

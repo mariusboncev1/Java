@@ -40,54 +40,10 @@ public class App {
             }
             writer.close();
 
-            System.out.println("Procesare finalizată. Rezultatele au fost salvate în statistica.dat.");
+            System.out.println("Succes!");
         } catch (IOException e) {
             e.printStackTrace();
         }
-
-
-
-        // Numere pix = new Numere();
-        // pix.citireFisier();
-
-        // try {
-        //     BufferedReader numereReader = new BufferedReader(new FileReader("numere.dat"));
-        //     String linie;
-        //     while((linie = numereReader.readLine()) != null) {
-        //         String[] numere = linie.split("\s");
-
-        //         for(String nr : numere) {
-        //             double out = Double.parseDouble(nr);
-        //             System.out.println(out);
-        //         }
-
-        //         numereReader.close();
-        //     }
-        // }
-        // catch (IOException e){
-        //     e.printStackTrace();
-        //     System.out.println("Eroare numere");
-        // }
-
-        // // Citire Interval
-        // try {
-        //     BufferedReader intervalReader = new BufferedReader(new FileReader("intervale.dat"));
-        //     String line;
-        //     while ((line = intervalReader.readLine()) != null) {
-
-        //         String[] valori = line.split("\s");
-
-        //         for(String val : valori) {
-        //             double numar = Double.parseDouble(val);
-        //             System.out.println(numar);
-        //         }
-        //     }
-        //     intervalReader.close();
-        // }
-        // catch(IOException e) {
-        //     e.printStackTrace();
-        //     System.out.println("Interval error");
-        // }
 
     }
 }
